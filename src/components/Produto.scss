@@ -1,0 +1,28 @@
+.Produto {
+
+    .header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 10px 0 #000000;
+      padding: 16px 32px;
+  
+      h1{
+        font-size: 32px;
+      }
+    }
+
+    .container{
+        padding: 16px 32px;
+
+        form{
+
+            fieldset{
+                
+                input{
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
