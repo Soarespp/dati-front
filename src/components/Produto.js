@@ -48,6 +48,7 @@ class Produto extends Component {
                 body: JSON.stringify(this.state.product)
             })
         }
+
     }
 
     componentDidMount() {
@@ -152,7 +153,9 @@ class Produto extends Component {
                                             onChange={(e) => this.updateProductProp(e.target.name, e.target.checked ? "enable" : "disable")}
                                         /> Ativado/Desativado
                                     </fieldset>
-                                    <button onClick={(e) => this.saveProduct(e)}>Salvar</button>
+                                    <button onClick={(e) => this.saveProduct(e)} >
+                                        <Link to="/" >Salvar</Link>
+                                    </button>
                                     <Link to="/" >Cancelar</Link>
                                 </form>
                             )

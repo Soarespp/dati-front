@@ -1,0 +1,32 @@
+.container{
+    padding: 16px 32px;
+
+    .products{
+      display: grid;
+      grid-row-gap: 12px;
+
+      .product{
+        padding: 6px 12px;
+        display: grid;
+        grid-template-columns: 1fr auto auto;
+        grid-column-gap: 12px;
+        border: solid 1px #ffffff;
+
+        .text{
+
+        }
+
+        .edit{
+          font-size: 14px;
+        }
+
+        .delete{
+          background: none;
+          border: none;
+          font-size: 14px;
+          text-decoration: underline;
+        }
+
+      }
+    }
+  }
